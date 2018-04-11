@@ -87,7 +87,8 @@ a {
 }
 
 html {
-    background: #252525 url('/images/line-tile.png?1416136272') top left
+    /*background: #252525 url('/images/line-tile.png?1416136272') top left*/
+    background: #fff
 }
 
 body > div {
@@ -96,7 +97,7 @@ body > div {
 }
 
 body > div > div {
-    background: #f8f8f8 url('/images/noise.png?1416136272') top left;
+    background: #F8F8F8 url('/images/noise.png?1416136272') top left;
     border-right: 1px solid #e0e0e0
 }
 
@@ -130,7 +131,7 @@ body > header h2 {
 
 body {
     line-height: 1.5em;
-    color: #222
+    color: #222;
 }
 
 h1 {
@@ -397,21 +398,21 @@ body > header, body > nav, body > footer, body #content > article, body #content
 @media only screen and (min-width: 480px) {
     body > header, body > nav, body > footer, body #content > article, body #content > div > article, body #content > div > section {
         padding-left: 25px;
-        padding-right: 25px
+        padding-right: 20px
     }
 }
 
 @media only screen and (min-width: 768px) {
     body > header, body > nav, body > footer, body #content > article, body #content > div > article, body #content > div > section {
         padding-left: 35px;
-        padding-right: 35px
+        /*padding-right: 35px*/
     }
 }
 
 @media only screen and (min-width: 992px) {
     body > header, body > nav, body > footer, body #content > article, body #content > div > article, body #content > div > section {
         padding-left: 55px;
-        padding-right: 55px
+        /*padding-right: 55px*/
     }
 }
 
@@ -703,7 +704,7 @@ body.sidebar-footer .toggle-sidebar {
 }
 
 body > header {
-    background: #333
+    background: #fff
 }
 
 body > header h1 {
@@ -712,7 +713,8 @@ body > header h1 {
 }
 
 body > header h1 a, body > header h1 a:visited, body > header h1 a:hover {
-    color: #f2f2f2;
+    /*color: #f2f2f2;*/
+    color: #000;
     text-decoration: none
 }
 
@@ -725,14 +727,14 @@ body > header h2 {
 
 body > nav {
     position: relative;
-    background-color: #ccc;
-    background: url('/images/noise.png?1416136272'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e0e0e0), color-stop(50%, #cccccc), color-stop(100%, #b0b0b0));
+    background-color: #fff;
+    /*background: url('/images/noise.png?1416136272'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e0e0e0), color-stop(50%, #cccccc), color-stop(100%, #b0b0b0));
     background: url('/images/noise.png?1416136272'), -webkit-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
     background: url('/images/noise.png?1416136272'), -moz-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
     background: url('/images/noise.png?1416136272'), -o-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
-    background: url('/images/noise.png?1416136272'), linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
+    background: url('/images/noise.png?1416136272'), linear-gradient(#e0e0e0, #cccccc, #b0b0b0);*/
     border-top: 1px solid #f2f2f2;
-    border-bottom: 1px solid #8c8c8c;
+    /*border-bottom: 1px solid #8c8c8c;*/
     padding-top: .35em;
     padding-bottom: .35em
 }
@@ -746,34 +748,35 @@ body > nav form {
 }
 
 body > nav form .search {
-    padding: .15em .5em .15em;
-    font-size: .85em;
+    padding: .35em .5em .35em;
+    font-size: .35em;
     font-family: "PT Sans", "Helvetica Neue", Arial, sans-serif;
     line-height: 1.1em;
-    width: 95%;
-    -webkit-border-radius: 0.5em;
-    -moz-border-radius: 0.5em;
-    -ms-border-radius: 0.5em;
-    -o-border-radius: 0.5em;
-    border-radius: 0.5em;
+    width: 100%;
+    /*-webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    -ms-border-radius: 0.2em;
+    -o-border-radius: 0.2em;
+    border-radius: 0.2em;
     -webkit-background-clip: padding;
-    -moz-background-clip: padding;
-    background-clip: padding-box;
-    -webkit-box-shadow: #d1d1d1 0 1px;
+    -moz-background-clip: padding;*/
+    /*background-clip: padding-box;*/
+    /*-webkit-box-shadow: #d1d1d1 0 1px;
     -moz-box-shadow: #d1d1d1 0 1px;
-    box-shadow: #d1d1d1 0 1px;
-    background-color: #f2f2f2;
-    border: 1px solid #b3b3b3;
+    box-shadow: #d1d1d1 0 1px;*/
+    /*background-color: #f2f2f2;*/
+    background-color: #fff;
+    /*border: 1px solid #b3b3b3;*/
     color: #888
 }
 
 body > nav form .search:focus {
-    color: #444;
-    border-color: #80b1df;
-    -webkit-box-shadow: #80b1df 0 0 4px, #80b1df 0 0 3px inset;
+    color: #333;
+    /*border-color: #80b1df;*/
+    /*-webkit-box-shadow: #80b1df 0 0 4px, #80b1df 0 0 3px inset;
     -moz-box-shadow: #80b1df 0 0 4px, #80b1df 0 0 3px inset;
-    box-shadow: #80b1df 0 0 4px, #80b1df 0 0 3px inset;
-    background-color: #fff;
+    box-shadow: #80b1df 0 0 4px, #80b1df 0 0 3px inset;*/
+    /*background-color: #fff;*/
     outline: none
 }
 
@@ -850,32 +853,32 @@ body > nav ul {
     }
 
     body > nav a {
-        color: #6b6b6b;
+        color: #666;
         font-family: "PT Sans", "Helvetica Neue", Arial, sans-serif;
-        text-shadow: #ebebeb 0 1px;
+        /*text-shadow: #ebebeb 0 1px;*/
         float: left;
         text-decoration: none;
         font-size: 1.1em;
-        padding: .1em 0;
+        padding: .25em 0;
         line-height: 1.5em
     }
 
     body > nav a:visited {
-        color: #6b6b6b
+        color: #666
     }
 
     body > nav a:hover {
-        color: #2b2b2b
+        color: #751590
     }
 
     body > nav li + li {
-        border-left: 1px solid #b0b0b0;
+        /*border-left: 1px solid #b0b0b0;*/
         margin-left: .8em
     }
 
     body > nav li + li a {
-        padding-left: .8em;
-        border-left: 1px solid #dedede
+        padding-left: 2.2em;
+        /*border-left: 1px solid #dedede*/
     }
 
     body > nav form {
@@ -886,7 +889,7 @@ body > nav ul {
     }
 
     body > nav form .search {
-        width: 93%;
+        width: 100%;
         font-size: .95em;
         line-height: 1.2em
     }
@@ -1042,7 +1045,7 @@ article header h1 a:hover {
 }
 
 article header p {
-    font-size: .9em;
+    font-size: .7em;
     color: #aaa;
     margin: 0
 }
@@ -1156,7 +1159,7 @@ article > footer p.meta {
 }
 
 #content .blog-index article h1 {
-    font-size: 2.2em
+    font-size: 1.8em
 }
 
 #content .blog-index article h1 a {
@@ -1170,7 +1173,7 @@ article > footer p.meta {
 #content .blog-index a[rel=full-article] {
     background: #ebebeb;
     display: inline-block;
-    padding: .4em .8em;
+    padding: .65em .8em;
     margin-right: .5em;
     text-decoration: none;
     color: #666;
@@ -1198,11 +1201,11 @@ article > footer p.meta {
 
 #content div.pagination {
     text-align: center;
-    font-size: .95em;
+    font-size: .45em;
     position: relative;
     background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAABCAYAAACsXeyTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAFUlEQVQIHWNIS0sr/v//PwMMDzY+ADqMahlW4J91AAAAAElFTkSuQmCC') top left repeat-x;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em
+    padding-top: 4.5em;
+    padding-bottom: 4.5em
 }
 
 #content div.pagination a {
@@ -1907,7 +1910,7 @@ figure.code .highlight {
 aside.sidebar {
     overflow: hidden;
     color: #4b4b4b;
-    text-shadow: #fff 0 1px
+    /*text-shadow: #fff 0 1px*/
 }
 
 aside.sidebar section {
@@ -2105,25 +2108,25 @@ aside.sidebar:hover a:hover {
 
 body > footer {
     font-size: .8em;
-    color: #888;
-    text-shadow: #d9d9d9 0 1px;
-    background-color: #ccc;
-    background: url('/images/noise.png?1416136272'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e0e0e0), color-stop(50%, #cccccc), color-stop(100%, #b0b0b0));
+    color: #333;
+    /*text-shadow: #d9d9d9 0 1px;*/
+    /*background-color: #ccc;*/
+    /*background: url('/images/noise.png?1416136272'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e0e0e0), color-stop(50%, #cccccc), color-stop(100%, #b0b0b0));
     background: url('/images/noise.png?1416136272'), -webkit-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
     background: url('/images/noise.png?1416136272'), -moz-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
     background: url('/images/noise.png?1416136272'), -o-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
-    background: url('/images/noise.png?1416136272'), linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
-    border-top: 1px solid #f2f2f2;
+    background: url('/images/noise.png?1416136272'), linear-gradient(#e0e0e0, #cccccc, #b0b0b0);*/
+    /*border-top: 1px solid #f2f2f2;*/
     position: relative;
-    padding-top: 1em;
+    padding-top: 2em;
     padding-bottom: 1em;
     margin-bottom: 3em;
-    -moz-border-radius-bottomleft: 0.4em;
+    /*-moz-border-radius-bottomleft: 0.4em;
     -webkit-border-bottom-left-radius: 0.4em;
     border-bottom-left-radius: 0.4em;
     -moz-border-radius-bottomright: 0.4em;
     -webkit-border-bottom-right-radius: 0.4em;
-    border-bottom-right-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;*/
     z-index: 1
 }
 
